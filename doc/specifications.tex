@@ -1,0 +1,38 @@
+The PS-1 can be built in two versions, according to builder preference. The
+PS-1H has a higher output voltage, but lower current. If you received a kit
+including all parts, you must build the provided version.
+
+Usually, the kit builder will select a mains transformer, so the input voltage
+tolerance is unspecified. It will be determined by the properties of the
+transformer.
+
+\vspace{25mm}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+    \hline
+    \multirow{2}{*}{\sc Model} & \multicolumn{2}{|c|}{\sc Output}
+        & \multicolumn{2}{|c|}{\sc Regulation}
+        & \multirow{2}{*}{\begin{minipage}[c]{1.5cm} \centering \sc Recov. time\end{minipage}}
+    & \multicolumn{2}{|c|}{\sc Noise} \\ \cline{2-5} \cline{7-8}
+        & \sc V & \sc mA & \sc Line & \sc Load & & \sc 0.1 -- 10~Hz & \sc 25 -- 2k~ Hz\\ \hline
+    \hline
+
+    PS-1H & 0--30~V & 0--500~mA & 0.01~\% & 0.01~\% & 100~$\mu$s &
+        $<$ 500~$\mu $V$_{p-p}$ & $<$ 200~$\mu $V$_{PP}$ \\ \hline
+
+    PS-1L & 0--18~V & 0--800~mA & 0.01~\% & 0.01~\% & 100~$\mu$s &
+        $<$ 500~$\mu $V$_{p-p}$ & $<$ 200~$\mu $V$_{PP}$ \\ \hline
+
+\end{tabular}
+
+\ \\
+Specifications valid over operating temperature range: 5--45~\dg C $\approx$ 40--110~\dg F.
+\end{center}
+
+Both PS-1H and PS-1L can withstand overloads of up to 200~V in either polarity
+whether or not the unit is powered, and up to 45~V forward without blowing the
+output fuse. Any reverse voltage above -0.7~V will blow the output fuse.
+
+Note that schematics in this manual are drawn assuming the PS-1H model. The
+principle of operation is identical for the PS-1L.

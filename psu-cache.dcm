@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TIP105
+D BJT, PNP Darlington
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP VA_METER
+D Voltmeter
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,73 @@
+The PS-1 is a bench power supply intended for powering general analog and
+digital devices under test (DUTs). It is designed entirely using
+discrete semiconductors, and is designed to be as usable as a traditional power
+supply based on precision operational amplifiers.
+
+\subsubsection{Assembly}
+To assemble the PS-1, you must handle and solder modern, surface-mount
+devices (SMD). This manual will not teach you how to do this. A good
+resource for learning how to solder SMD parts is the excellent soldering
+video tutorial series by Dave Jones of EEVblog, which can be found on
+YouTube:
+
+\begin{center}
+\begin{tabular}{lc}
+\#180 --- Soldering Tutorial Part 1 --- Tools &
+    \url{http://www.youtube.com/watch?v=J5Sb21qbpEQ} \\
+\#183 --- Soldering Tutorial Part 2 &
+    \url{http://www.youtube.com/watch?v=fYz5nIHH0iY} \\
+\#186 --- Soldering Tutorial Part 3 --- Surface Mount &
+    \url{http://www.youtube.com/watch?v=b9FC9fAlfQE} \\
+\end{tabular}
+{\small\it Please support Dave by disabling any ad blockers while watching
+    these videos. This is how he makes his living.}
+\hrule
+\end{center}
+
+You also may need to source the components to build the kit, as not all
+incarnations provide all of the parts. A separate packet detailing parts which
+were included and parts which were not should be attached; this will include
+bills of materials (BOMs) directly compatible with multiple major parts
+distributors to ease the process.
+
+\subsubsection{Testing}
+Testing the PS-1 requires only a multimeter of any kind and an oscilloscope
+with at least 10 MHz bandwidth%
+\footnote{Measuring some parameters requires more sophisticated equipment, but
+I have done this already. If you build the PS-1 using the specified parts in
+the specified manner, and you test it and find that it works, it should meet
+these specifications.}.
+You will build the supply one section at a
+time, testing each individually, to isolate any problems to the exact section
+which causes them. There is a troubleshooting guide in this booklet, but if you
+encounter serious difficulty, you will find it necessary to read and understand
+the Theory of Operation to fully debug the circuits.
+
+\subsubsection{Voltage Warning!}
+The ``low-voltage'' circuitry of this power supply contains voltages
+ranging from 40~V to 50~V, which will probably not kill you, but could be
+dangerous.  Do not touch the circuit while it is operational, and do not touch
+anything powered by it until you have fully verified correct operation. You
+should take care to fully determine and understand the paths by which dangerous
+current can flow.
+
+Assembling the PS-1 also requires you to make a small number of connections
+that will operate at line voltage (120~V or 240~V AC, depending on your
+country). It is \emph{your responsibility} to determine whether you can legally
+perform this in your area, as I cannot be expected to know the electrical laws
+of every jurisdiction. If this is prohibited or discouraged where you live,
+I recommend finding someone licensed to do this wiring. Even if you \emph{can}
+legally do this, I recommend politely asking someone with electrical experience
+to check your work for safety.
+
+\subsubsection{Energy Warning!}
+Installing electrolytic capacitors backwards can make them \emph{pop!} If they
+do this while your curious face is hovering over them, trying to figure out why
+they are inflating like balloons, they can cause you physical injury. Any build
+sections with capacitors in high-energy positions will advise you of this fact
+before you power on the PS-1 for testing. I highly recommend covering the PS-1
+and keeping your face away from it while connecting the power.
+
+Likewise, resistors in any section of the circuit may burn if installed
+incorrectly. This does not cause such a commotion as do the capacitors, but
+it does smell very bad. You have been warned.

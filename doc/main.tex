@@ -1,0 +1,73 @@
+\documentclass{book}
+\title{PS-1 All-Discrete Power Supply Kit}
+\author{Christopher Pavlina}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage{appendix}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{latexsym}
+%\floatstyle{boxed}
+%\restylefloat{figure}
+\usepackage{subfigure}
+\usepackage{framed}
+\usepackage{array}
+\usepackage{euler}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{textpos}
+\usepackage{changepage}
+
+\setlength{\TPHorizModule}{1in}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcommand{\mr}[1]{\mathrm{#1}}
+\newcommand{\dg}{\ensuremath{^\circ}}
+
+\newcommand{\note}[1]{ %\
+ \begin{framed} \begin{tabular}{m{1.5cm}m{0.7\textwidth}} %\
+ \includegraphics[width=1cm]{pencil}&#1\\ %\
+ \end{tabular}\end{framed} }
+\newcommand{\aside}[1]{ %\
+ \begin{framed} \begin{tabular}{m{1.5cm}m{0.7\textwidth}} %\
+ \includegraphics[width=1cm]{lightbulb}&#1\\ %\
+ \end{tabular}\end{framed} }
+
+\begin{document}
+
+\frontmatter
+
+\input{titlepage/titlepage}
+
+
+\chapter{Specifications}
+\input{specifications}
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{Introduction}
+\input{introduction}
+
+\chapter{Theory of Operation}
+\input{too-summary}
+\input{too-localreg}
+\input{too-reference}
+\input{too-verror}
+\input{too-ierror}
+\input{too-thermal}
+\input{too-outputamp}
+
+%\begin{appendices}
+
+%\chapter{Prototyping}
+%\input{appendix-proto/appendix-proto}
+%\end{appendices}
+
+\end{document}

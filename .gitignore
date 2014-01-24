@@ -1,0 +1,12 @@
+*.bak
+*.ps
+*.bck
+*.dsn
+*.pdf
+*-bak
+*.log
+*.aux*
+*.out*
+*.toc*
+_autosave*
+*.raw
