@@ -2407,11 +2407,6 @@ F 4 "#PWR19" H 5500 10100 50  0001 C CNN "OldReference"
 $EndComp
 Connection ~ 5500 10000
 Wire Wire Line
-	7500 5150 7000 5150
-Connection ~ 7500 5150
-Text Label 7000 5150 0    60   ~ 0
-GUARD
-Wire Wire Line
 	10450 4600 10450 4700
 Wire Wire Line
 	10450 4400 10450 4300
