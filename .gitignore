@@ -1,3 +1,4 @@
+*.zip
 *.bak
 *.ps
 *.bck
@@ -11,3 +12,4 @@
 _autosave*
 *.raw
 *~
+ORDERS/
