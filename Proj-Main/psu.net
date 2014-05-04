@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/cmp/ownCloud/electronics/0-WEBSITE/E100A-dpsu/Proj-Main/psu.sch)
-    (date "Sun 04 May 2014 10:30:30 AM EDT")
+    (date "Sun 04 May 2014 10:33:16 AM EDT")
     (tool "Eeschema (2014-05-01 BZR 4839)-product"))
   (components
     (comp (ref RV1)
@@ -366,7 +366,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 52E2E0B8))
     (comp (ref R6)
-      (value 18k)
+      (value 22k)
       (fields
         (field (name BomValueLine) "RES 18k 5% [0805]")
         (field (name OldReference) R6))
@@ -382,7 +382,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 52E2F010))
     (comp (ref R5)
-      (value 22k)
+      (value 30k)
       (fields
         (field (name BomValueLine) "RES 22k 5% [0805]")
         (field (name OldReference) R5))
@@ -890,76 +890,13 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 536734BD)))
   (libparts
-    (libpart (lib passive) (part THERM)
-      (description Thermistor)
-      (docs mod_pdf/R-THERM-*)
+    (libpart (lib capacitors) (part C-0805)
+      (description "Chip capacitor, EIA 0805, metric 2012")
       (footprints
-        (fp R-THERM-*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) THERM))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib 1N-SMD) (part BZX84C)
-      (description "Diode, Zener, 250mW, 5mA, 4.7-36V")
-      (footprints
-        (fp SOT-23))
-      (fields
-        (field (name Reference) DZ)
-        (field (name Value) BZX84C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib conn) (part HEAD-F1)
-      (docs mod_pdf/HEAD-1.pdf)
-      (footprints
-        (fp HEAD-1))
-      (fields
-        (field (name Reference) J)
-        (field (name Value) HEAD-F1))
-      (pins
-        (pin (num 1) (name 1) (type passive))))
-    (libpart (lib resistors) (part R-1210)
-      (description "Chip resistor, EIA 1210, metric 3225")
-      (footprints
-        (fp RESC3225X60))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R-1210))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib capacitors) (part C-ALUM-6.3mm)
-      (description "Aluminum capacitor, 6.3mm diameter, 2.5mm L.S.")
-      (footprints
-        (fp C-ALUM-6.3mm))
+        (fp CAPC2012X70))
       (fields
         (field (name Reference) C)
-        (field (name Value) C-ALUM-6.3mm))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib passive) (part POT-TRIM)
-      (description Resistor)
-      (docs mod_pdf/R-*)
-      (footprints
-        (fp R-*)
-        (fp SMCHIP-*))
-      (fields
-        (field (name Reference) RV)
-        (field (name Value) POT-TRIM))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib resistors) (part R-0805)
-      (description "Chip resistor, EIA 0805, metric 2012")
-      (footprints
-        (fp RESC2012X50))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R-0805))
+        (field (name Value) C-0805))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -973,187 +910,6 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib capacitors) (part C-1206)
-      (description "Chip capacitor, EIA 1206, metric 3216")
-      (footprints
-        (fp CAPC3216X70))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C-1206))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib nxp_semi) (part PMP4201Y)
-      (description "BJT, NPN matched, 45V, 100mA, 200mW, hFE=200-450 2%mat, VBE 2mVmat")
-      (footprints
-        (fp SC-70-6))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) PMP4201Y))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))
-        (pin (num 4) (name ~) (type passive))
-        (pin (num 5) (name ~) (type passive))
-        (pin (num 6) (name ~) (type passive))))
-    (libpart (lib 2N-SMD) (part MMBT3904)
-      (description "NPN GP amplifier, 200mA, 40V")
-      (footprints
-        (fp SOT-23))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) MMBT3904))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib capacitors) (part C-0805)
-      (description "Chip capacitor, EIA 0805, metric 2012")
-      (footprints
-        (fp CAPC2012X70))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C-0805))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib capacitors) (part C-ALUM-16mm)
-      (description "Aluminum capacitor, 16mm diameter, 7.5mm L.S.")
-      (footprints
-        (fp C-ALUM-16mm))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C-ALUM-16mm))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib semi) (part ZENER)
-      (description "Diode, Zener")
-      (docs mod_pdf/DO-*)
-      (footprints
-        (fp DO-*)
-        (fp SOD-*)
-        (fp SOT-*)
-        (fp TO-*-2))
-      (fields
-        (field (name Reference) DZ)
-        (field (name Value) ZENER))
-      (pins
-        (pin (num A) (name ~) (type passive))
-        (pin (num K) (name ~) (type passive))))
-    (libpart (lib 2N-SMD) (part BC856)
-      (description "PNP GP amplifier, -100mA, -65V")
-      (footprints
-        (fp SOT-23))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) BC856))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib 2N-SMD) (part PZT2222A)
-      (description "NPN GP amplifier, 1A, 40V")
-      (footprints
-        (fp SOT-223))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) PZT2222A))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))
-        (pin (num 4) (name ~) (type passive))))
-    (libpart (lib 2N-SMD) (part MMBT2907A)
-      (description "PNP GP amplifier, -1A, -40V")
-      (footprints
-        (fp SOT-23))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) MMBT2907A))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib 1N-SMD) (part S1D)
-      (description "Diode, GP rect, 1A, 200V, 1N4003 equiv")
-      (footprints
-        (fp DIOM5326X292))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) S1D))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib conn) (part TEST)
-      (description "Test point")
-      (docs mod_pdf/TEST.pdf)
-      (footprints
-        (fp TEST)
-        (fp TEST-*)
-        (fp TEST*))
-      (fields
-        (field (name Reference) TP)
-        (field (name Value) TEST))
-      (pins
-        (pin (num 1) (name ~) (type passive))))
-    (libpart (lib passive) (part POT)
-      (description Resistor)
-      (docs mod_pdf/R-*)
-      (footprints
-        (fp R-*)
-        (fp SMCHIP-*))
-      (fields
-        (field (name Reference) RV)
-        (field (name Value) POT))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib 2N-SMD) (part MMBT3906)
-      (description "PNP GP amplifier, -200mA, -40V")
-      (footprints
-        (fp SOT-23))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) MMBT3906))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib 1N-SMD) (part MMBD4148)
-      (aliases
-        (alias MMBD914))
-      (description "Diode, general purpose switching, 200mA")
-      (footprints
-        (fp SOT-23))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) MMBD4148))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib 1N-SMD) (part S1A)
-      (description "Diode, GP rect, 1A, 50V, 1N4001 equiv")
-      (footprints
-        (fp DIOM5326X292))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) S1A))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib resistors) (part R-1206)
-      (description "Chip resistor, EIA 1206, metric 3216")
-      (footprints
-        (fp RESC3216X60))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R-1206))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part HEAD-F4)
       (docs mod_pdf/HEAD-4.pdf)
       (footprints
@@ -1178,6 +934,36 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))
         (pin (num 3) (name ~) (type passive))))
+    (libpart (lib 2N-SMD) (part MMBT3904)
+      (description "NPN GP amplifier, 200mA, 40V")
+      (footprints
+        (fp SOT-23))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MMBT3904))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib resistors) (part R-0805)
+      (description "Chip resistor, EIA 0805, metric 2012")
+      (footprints
+        (fp RESC2012X50))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R-0805))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part HEAD-F1)
+      (docs mod_pdf/HEAD-1.pdf)
+      (footprints
+        (fp HEAD-1))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) HEAD-F1))
+      (pins
+        (pin (num 1) (name 1) (type passive))))
     (libpart (lib semi) (part LED)
       (description "Diode, light-emitting")
       (fields
@@ -1185,26 +971,240 @@
         (field (name Value) LED))
       (pins
         (pin (num A) (name ~) (type passive))
-        (pin (num K) (name ~) (type passive)))))
+        (pin (num K) (name ~) (type passive))))
+    (libpart (lib passive) (part POT-TRIM)
+      (description Resistor)
+      (docs mod_pdf/R-*)
+      (footprints
+        (fp R-*)
+        (fp SMCHIP-*))
+      (fields
+        (field (name Reference) RV)
+        (field (name Value) POT-TRIM))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib conn) (part TEST)
+      (description "Test point")
+      (docs mod_pdf/TEST.pdf)
+      (footprints
+        (fp TEST)
+        (fp TEST-*)
+        (fp TEST*))
+      (fields
+        (field (name Reference) TP)
+        (field (name Value) TEST))
+      (pins
+        (pin (num 1) (name ~) (type passive))))
+    (libpart (lib 1N-SMD) (part MMBD4148)
+      (aliases
+        (alias MMBD914))
+      (description "Diode, general purpose switching, 200mA")
+      (footprints
+        (fp SOT-23))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) MMBD4148))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib capacitors) (part C-ALUM-16mm)
+      (description "Aluminum capacitor, 16mm diameter, 7.5mm L.S.")
+      (footprints
+        (fp C-ALUM-16mm))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C-ALUM-16mm))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib resistors) (part R-1210)
+      (description "Chip resistor, EIA 1210, metric 3225")
+      (footprints
+        (fp RESC3225X60))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R-1210))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib 1N-SMD) (part S1D)
+      (description "Diode, GP rect, 1A, 200V, 1N4003 equiv")
+      (footprints
+        (fp DIOM5326X292))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) S1D))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib passive) (part THERM)
+      (description Thermistor)
+      (docs mod_pdf/R-THERM-*)
+      (footprints
+        (fp R-THERM-*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) THERM))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib 1N-SMD) (part S1A)
+      (description "Diode, GP rect, 1A, 50V, 1N4001 equiv")
+      (footprints
+        (fp DIOM5326X292))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) S1A))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib resistors) (part R-1206)
+      (description "Chip resistor, EIA 1206, metric 3216")
+      (footprints
+        (fp RESC3216X60))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R-1206))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib passive) (part POT)
+      (description Resistor)
+      (docs mod_pdf/R-*)
+      (footprints
+        (fp R-*)
+        (fp SMCHIP-*))
+      (fields
+        (field (name Reference) RV)
+        (field (name Value) POT))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib 1N-SMD) (part BZX84C)
+      (description "Diode, Zener, 250mW, 5mA, 4.7-36V")
+      (footprints
+        (fp SOT-23))
+      (fields
+        (field (name Reference) DZ)
+        (field (name Value) BZX84C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib 2N-SMD) (part BC856)
+      (description "PNP GP amplifier, -100mA, -65V")
+      (footprints
+        (fp SOT-23))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) BC856))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib semi) (part ZENER)
+      (description "Diode, Zener")
+      (docs mod_pdf/DO-*)
+      (footprints
+        (fp DO-*)
+        (fp SOD-*)
+        (fp SOT-*)
+        (fp TO-*-2))
+      (fields
+        (field (name Reference) DZ)
+        (field (name Value) ZENER))
+      (pins
+        (pin (num A) (name ~) (type passive))
+        (pin (num K) (name ~) (type passive))))
+    (libpart (lib 2N-SMD) (part MMBT2907A)
+      (description "PNP GP amplifier, -1A, -40V")
+      (footprints
+        (fp SOT-23))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MMBT2907A))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib capacitors) (part C-ALUM-6.3mm)
+      (description "Aluminum capacitor, 6.3mm diameter, 2.5mm L.S.")
+      (footprints
+        (fp C-ALUM-6.3mm))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C-ALUM-6.3mm))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib 2N-SMD) (part MMBT3906)
+      (description "PNP GP amplifier, -200mA, -40V")
+      (footprints
+        (fp SOT-23))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MMBT3906))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
+    (libpart (lib capacitors) (part C-1206)
+      (description "Chip capacitor, EIA 1206, metric 3216")
+      (footprints
+        (fp CAPC3216X70))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C-1206))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib nxp_semi) (part PMP4201Y)
+      (description "BJT, NPN matched, 45V, 100mA, 200mW, hFE=200-450 2%mat, VBE 2mVmat")
+      (footprints
+        (fp SC-70-6))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) PMP4201Y))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))))
+    (libpart (lib 2N-SMD) (part PZT2222A)
+      (description "NPN GP amplifier, 1A, 40V")
+      (footprints
+        (fp SOT-223))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) PZT2222A))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive)))))
   (libraries
-    (library (logical semi)
-      (uri ../../../../../electronics/kicad/library/semi.lib))
-    (library (logical 1N-SMD)
-      (uri ../../../../../electronics/kicad/library/1N-SMD.lib))
-    (library (logical conn)
-      (uri ../../../../../electronics/kicad/library/conn.lib))
-    (library (logical psu-cache)
-      (uri /home/cmp/ownCloud/electronics/0-WEBSITE/E100A-dpsu/Proj-Main/psu-cache.lib))
-    (library (logical nxp_semi)
-      (uri ../../../../../electronics/kicad/library/nxp_semi.lib))
     (library (logical capacitors)
       (uri ../../../../../electronics/kicad/library/capacitors.lib))
-    (library (logical 2N-SMD)
-      (uri ../../../../../electronics/kicad/library/2N-SMD.lib))
+    (library (logical psu-cache)
+      (uri /home/cmp/ownCloud/electronics/0-WEBSITE/E100A-dpsu/Proj-Main/psu-cache.lib))
     (library (logical resistors)
       (uri ../../../../../electronics/kicad/library/resistors.lib))
+    (library (logical conn)
+      (uri ../../../../../electronics/kicad/library/conn.lib))
+    (library (logical semi)
+      (uri ../../../../../electronics/kicad/library/semi.lib))
     (library (logical passive)
-      (uri ../../../../../electronics/kicad/library/passive.lib)))
+      (uri ../../../../../electronics/kicad/library/passive.lib))
+    (library (logical nxp_semi)
+      (uri ../../../../../electronics/kicad/library/nxp_semi.lib))
+    (library (logical 1N-SMD)
+      (uri ../../../../../electronics/kicad/library/1N-SMD.lib))
+    (library (logical 2N-SMD)
+      (uri ../../../../../electronics/kicad/library/2N-SMD.lib)))
   (nets
     (net (code 1) (name "Net-(D6-Pad1)")
       (node (ref D7) (pin 2))
