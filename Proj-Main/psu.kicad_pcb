@@ -275,7 +275,7 @@
   (module conn:CONN_2-SIL (layer F.Cu) (tedit 532742D2) (tstamp 53274644)
     (at 221 75 270)
     (path /53274463)
-    (fp_text reference J6 (at -3 0 360) (layer F.SilkS)
+    (fp_text reference J5 (at -3 0 360) (layer F.SilkS)
       (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
     )
     (fp_text value SENSE (at 0 -1.39954 270) (layer F.SilkS) hide
@@ -295,7 +295,7 @@
   (module conn:CONN_3-SIL (layer F.Cu) (tedit 53276251) (tstamp 532741AA)
     (at 161 116 180)
     (path /52C9CFB3)
-    (fp_text reference Q17 (at 0 2.5 360) (layer F.SilkS)
+    (fp_text reference Q21 (at 0 2.5 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value TIP105 (at -0.09906 1.6002 180) (layer F.SilkS) hide
@@ -327,7 +327,7 @@
   (module IPC-semi-nominal:SC-70-6 (layer F.Cu) (tedit 532730F8) (tstamp 5326824F)
     (at 131 105 180)
     (path /5326757F)
-    (fp_text reference Q7 (at 0 3 270) (layer F.SilkS)
+    (fp_text reference Q5 (at 0 3 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value PMP4201Y (at 0 0 180) (layer F.SilkS) hide
@@ -360,7 +360,7 @@
   (module passive:C-ALUM-16mm (layer F.Cu) (tedit 5327625A) (tstamp 52C3B2A0)
     (at 154.5 78 270)
     (path /530A4321)
-    (fp_text reference C1 (at -5 7.5 360) (layer F.SilkS)
+    (fp_text reference C2 (at -5 7.5 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value "1000u 63V" (at 0 0 270) (layer F.SilkS) hide
@@ -413,7 +413,7 @@
   (module conn:CONN_4-SIL (layer F.Cu) (tedit 5327341C) (tstamp 52D89DC5)
     (at 221 97 270)
     (path /52D92766)
-    (fp_text reference J1 (at -6 0 360) (layer F.SilkS)
+    (fp_text reference J6 (at -6 0 360) (layer F.SilkS)
       (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
     )
     (fp_text value METER (at 0.39878 -0.8001 270) (layer F.SilkS) hide
@@ -441,7 +441,7 @@
   (module conn:CONN_2-SIL (layer F.Cu) (tedit 53273417) (tstamp 52CABD01)
     (at 198 100)
     (path /53228E8B)
-    (fp_text reference DS1 (at 0 -2) (layer F.SilkS)
+    (fp_text reference DS2 (at 0 -2) (layer F.SilkS)
       (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
     )
     (fp_text value LIM (at 0 -1.39954) (layer F.SilkS) hide
@@ -491,7 +491,7 @@
   (module conn:CONN_2-SIL (layer F.Cu) (tedit 536699BF) (tstamp 53665091)
     (at 187.08 73.5)
     (path /53271BF9)
-    (fp_text reference DS2 (at -0.08 4) (layer F.SilkS)
+    (fp_text reference DS1 (at -0.08 4) (layer F.SilkS)
       (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
     )
     (fp_text value HOT (at 0 -1.39954) (layer F.SilkS) hide
@@ -515,7 +515,7 @@
   (module conn:CONN_2-SIL (layer F.Cu) (tedit 532733FA) (tstamp 5324DCCC)
     (at 182 73.5)
     (path /52C9DDA9)
-    (fp_text reference R43 (at 0 2.5) (layer F.SilkS)
+    (fp_text reference R22 (at 0 2.5) (layer F.SilkS)
       (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
     )
     (fp_text value NTC (at 0 -1.39954) (layer F.SilkS) hide
@@ -539,7 +539,7 @@
   (module IPC-semi-nominal:SC-70-6 (layer F.Cu) (tedit 5324DD83) (tstamp 5324C408)
     (at 190 92)
     (path /5322701D)
-    (fp_text reference Q18 (at 0 -3 90) (layer F.SilkS)
+    (fp_text reference Q23 (at 0 -3 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value PMP4201Y (at 0 0) (layer F.SilkS) hide
@@ -700,7 +700,7 @@
   (module IPC-semi-nominal:SC-70-6 (layer F.Cu) (tedit 53275B5D) (tstamp 52E1E8DE)
     (at 162 99)
     (path /52C390FD)
-    (fp_text reference Q11 (at 0 -1.75) (layer F.SilkS)
+    (fp_text reference Q12 (at 0 -1.75) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value PMP4201Y (at 0 0) (layer F.SilkS) hide
@@ -733,7 +733,7 @@
   (module IPC-semi-nominal:SC-70-6 (layer F.Cu) (tedit 532796B4) (tstamp 52C3B3D3)
     (at 145 91.5)
     (path /52C3B9BE)
-    (fp_text reference Q8 (at 0 -2) (layer F.SilkS)
+    (fp_text reference Q10 (at 0 -2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value PMP4201Y (at 0 0) (layer F.SilkS) hide
@@ -766,7 +766,7 @@
   (module passive:C-ALUM-6.3mm (layer F.Cu) (tedit 53260D6B) (tstamp 52C3B2EB)
     (at 196 110 270)
     (path /5327091D)
-    (fp_text reference C8 (at 4 0 360) (layer F.SilkS)
+    (fp_text reference C9 (at 4 0 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value "47u 63V" (at 0 0 270) (layer F.SilkS) hide
@@ -876,7 +876,7 @@
   (module conn:TEST (layer F.Cu) (tedit 53273F77) (tstamp 52C4E05C)
     (at 129 73)
     (path /52C0A815)
-    (fp_text reference J3 (at -3 0) (layer F.SilkS)
+    (fp_text reference J1 (at -3 0) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.2)))
     )
     (fp_text value T1A (at 0 0) (layer F.SilkS) hide
@@ -894,7 +894,7 @@
   (module conn:TEST (layer F.Cu) (tedit 53273F7E) (tstamp 52C4E056)
     (at 129 80)
     (path /52C0A904)
-    (fp_text reference J4 (at -3 0) (layer F.SilkS)
+    (fp_text reference J2 (at -3 0) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.2)))
     )
     (fp_text value T1B (at 0 0) (layer F.SilkS) hide
@@ -912,7 +912,7 @@
   (module conn:TEST (layer F.Cu) (tedit 53279AD7) (tstamp 5324BC51)
     (at 129 87)
     (path /52C0A8CF)
-    (fp_text reference J5 (at -3 0) (layer F.SilkS)
+    (fp_text reference J3 (at -3 0) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.2)))
     )
     (fp_text value T1C (at 0 0) (layer F.SilkS) hide
@@ -930,7 +930,7 @@
   (module conn:TEST (layer F.Cu) (tedit 53273F91) (tstamp 52C3B37A)
     (at 221 110)
     (path /52C058EA)
-    (fp_text reference J8 (at 2.54 0) (layer F.SilkS)
+    (fp_text reference J4 (at 2.54 0) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.2)))
     )
     (fp_text value OUT+ (at 0 0) (layer F.SilkS) hide
@@ -948,7 +948,7 @@
   (module conn:TEST (layer F.Cu) (tedit 53273F95) (tstamp 52C3B37F)
     (at 221 117)
     (path /52C0583D)
-    (fp_text reference J9 (at 2.54 0) (layer F.SilkS)
+    (fp_text reference J7 (at 2.54 0) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.2)))
     )
     (fp_text value OUT- (at 0 0) (layer F.SilkS) hide
@@ -966,7 +966,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 53275B50) (tstamp 52C3B3F4)
     (at 162 103 90)
     (path /52C3AF76)
-    (fp_text reference Q12 (at -2.5 0 180) (layer F.SilkS)
+    (fp_text reference Q9 (at -2.5 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value MMBT3904 (at 0 0 90) (layer F.SilkS) hide
@@ -996,7 +996,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 5366A02E) (tstamp 53271E84)
     (at 168 95)
     (path /5367C6D5)
-    (fp_text reference Q13 (at 0 0 90) (layer F.SilkS) hide
+    (fp_text reference Q17 (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value BC856 (at 0 0) (layer F.SilkS) hide
@@ -1026,7 +1026,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 5327537A) (tstamp 52C3B432)
     (at 167.5 103 90)
     (path /53247C30)
-    (fp_text reference Q14 (at 3 0 360) (layer F.SilkS)
+    (fp_text reference Q18 (at 3 0 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value MMBT3904 (at 0 0 90) (layer F.SilkS) hide
@@ -1088,7 +1088,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C3BB93)
-    (fp_text reference R12 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R16 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 22k (at 0 0 270) (layer F.SilkS) hide
@@ -1114,7 +1114,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C3BE93)
-    (fp_text reference R13 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R17 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 22k (at 0 0 270) (layer F.SilkS) hide
@@ -1140,7 +1140,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C3CF18)
-    (fp_text reference R14 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R19 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value "22k 0.5%" (at 0 0 270) (layer F.SilkS) hide
@@ -1166,7 +1166,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C3C3E6)
-    (fp_text reference R15 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R18 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value "22k 0.5%" (at 0 0 270) (layer F.SilkS) hide
@@ -1192,7 +1192,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C651B3)
-    (fp_text reference R17 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R30 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 270) (layer F.SilkS) hide
@@ -1218,7 +1218,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52E356DE)
-    (fp_text reference R10 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference R12 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 470 (at 0 0 180) (layer F.SilkS) hide
@@ -1244,7 +1244,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C593D9)
-    (fp_text reference R18 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R13 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 33 (at 0 0 270) (layer F.SilkS) hide
@@ -1270,7 +1270,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /532492E0)
-    (fp_text reference R23 (at -3 0 90) (layer F.SilkS)
+    (fp_text reference R36 (at -3 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 22k (at 0 0 90) (layer F.SilkS) hide
@@ -1296,7 +1296,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C3CF63)
-    (fp_text reference R37 (at 0 2 180) (layer F.SilkS)
+    (fp_text reference R49 (at 0 2 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value "* 0.5%" (at 0 0 180) (layer F.SilkS) hide
@@ -1322,7 +1322,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C3D004)
-    (fp_text reference R38 (at 0 2 180) (layer F.SilkS)
+    (fp_text reference R50 (at 0 2 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value "* 0.5%" (at 0 0 180) (layer F.SilkS) hide
@@ -1348,7 +1348,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C3FE1A)
-    (fp_text reference R39 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference R53 (at 0 -1.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 270 (at 0 0) (layer F.SilkS) hide
@@ -1374,7 +1374,7 @@
     (descr "Resistor,Chip;3.20mm L X 2.50mm W X 0.60mm H")
     (tags IEC)
     (path /52C3D1BE)
-    (fp_text reference R33 (at 0 2.5) (layer F.SilkS)
+    (fp_text reference R47 (at 0 2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value "* 1/2W" (at 0 0) (layer F.SilkS) hide
@@ -1400,7 +1400,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5324CC86)
-    (fp_text reference R26 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R40 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 100k (at 0 0 270) (layer F.SilkS) hide
@@ -1426,7 +1426,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /532494E6)
-    (fp_text reference R24 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R38 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 33 (at 0 0 90) (layer F.SilkS) hide
@@ -1452,7 +1452,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C64988)
-    (fp_text reference R11 (at -3 0 450) (layer F.SilkS)
+    (fp_text reference R15 (at -3 0 450) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 100k (at 0 0 270) (layer F.SilkS) hide
@@ -1478,7 +1478,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /53247DFA)
-    (fp_text reference R22 (at 3 0 270) (layer F.SilkS)
+    (fp_text reference R35 (at 3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 270) (layer F.SilkS) hide
@@ -1504,7 +1504,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /53229733)
-    (fp_text reference R27 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R39 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 22k (at 0 0 270) (layer F.SilkS) hide
@@ -1530,7 +1530,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5322869E)
-    (fp_text reference R31 (at 3 0 90) (layer F.SilkS)
+    (fp_text reference R41 (at 3 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 10k (at 0 0 90) (layer F.SilkS) hide
@@ -1556,7 +1556,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /53227504)
-    (fp_text reference R29 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R42 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 270) (layer F.SilkS) hide
@@ -1582,7 +1582,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5322752F)
-    (fp_text reference R28 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R43 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 270) (layer F.SilkS) hide
@@ -1634,7 +1634,7 @@
     (descr "Diode,Molded Body;7.94mm L X 5.95mm W X 2.65mm H")
     (tags IEC)
     (path /52C44D0A)
-    (fp_text reference DZ2 (at 0 -4 450) (layer F.SilkS)
+    (fp_text reference DZ3 (at 0 -4 450) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value SMCJ30A-E3/9AT (at 0 0 270) (layer F.SilkS) hide
@@ -1664,7 +1664,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 5366A056) (tstamp 52D4A1FB)
     (at 164 90 270)
     (path /5367CC32)
-    (fp_text reference Q10 (at -3 -1 360) (layer F.SilkS) hide
+    (fp_text reference Q15 (at -3 -1 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value BC856 (at 0 0 270) (layer F.SilkS) hide
@@ -1696,7 +1696,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /532490E6)
-    (fp_text reference R21 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R34 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 22k (at 0 0 270) (layer F.SilkS) hide
@@ -1722,7 +1722,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52D9358E)
-    (fp_text reference R35 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference R51 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value * (at 0 0 90) (layer F.SilkS) hide
@@ -1748,7 +1748,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52D92F3C)
-    (fp_text reference R36 (at 0 1.5 270) (layer F.SilkS)
+    (fp_text reference R54 (at 0 1.5 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value * (at 0 0 270) (layer F.SilkS) hide
@@ -1838,7 +1838,7 @@
     (descr "Diode,Molded Body;5.27mm L X 2.60mm W X 2.92mm H")
     (tags IEC)
     (path /53260628)
-    (fp_text reference D7 (at -2 -2.5 180) (layer F.SilkS)
+    (fp_text reference D8 (at -2 -2.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value S1D (at 0 0 180) (layer F.SilkS) hide
@@ -1870,7 +1870,7 @@
     (descr "Diode,Molded Body;5.27mm L X 2.60mm W X 2.92mm H")
     (tags IEC)
     (path /53260633)
-    (fp_text reference D8 (at -4.5 0) (layer F.SilkS)
+    (fp_text reference D7 (at -4.5 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value S1D (at 0 0) (layer F.SilkS) hide
@@ -1902,7 +1902,7 @@
     (descr "Diode,Molded Body;5.27mm L X 2.60mm W X 2.92mm H")
     (tags IEC)
     (path /52D9F000)
-    (fp_text reference D11 (at 0 2.5) (layer F.SilkS)
+    (fp_text reference D12 (at 0 2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value S1D (at 0 0) (layer F.SilkS) hide
@@ -1966,7 +1966,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52E2FA32)
-    (fp_text reference R8 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R10 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 10k (at 0 0 90) (layer F.SilkS) hide
@@ -1992,7 +1992,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5324C6C6)
-    (fp_text reference R16 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R24 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 270) (layer F.SilkS) hide
@@ -2018,7 +2018,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52E30227)
-    (fp_text reference R9 (at 0 0) (layer F.SilkS) hide
+    (fp_text reference R11 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 470 (at 0 0) (layer F.SilkS) hide
@@ -2044,7 +2044,7 @@
     (descr "Diode,Molded Body;5.27mm L X 2.60mm W X 2.92mm H")
     (tags IEC)
     (path /52D9E820)
-    (fp_text reference D12 (at -0.5 -2.5) (layer F.SilkS)
+    (fp_text reference D11 (at -0.5 -2.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value S1D (at 0 0) (layer F.SilkS) hide
@@ -2076,7 +2076,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52D9E52B)
-    (fp_text reference R40 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference R52 (at 0 -1.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 270 (at 0 0) (layer F.SilkS) hide
@@ -2102,7 +2102,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52E1EA6F)
-    (fp_text reference R34 (at 3 0 270) (layer F.SilkS)
+    (fp_text reference R46 (at 3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 22k (at 0 0 270) (layer F.SilkS) hide
@@ -2128,7 +2128,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5324857B)
-    (fp_text reference R19 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R32 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 270) (layer F.SilkS) hide
@@ -2154,7 +2154,7 @@
     (descr "Capacitor,non-polarized,Chip;3.20mm L X 1.60mm W X 0.70mm H")
     (tags IEC)
     (path /53250518)
-    (fp_text reference C5 (at -3 0 450) (layer F.SilkS)
+    (fp_text reference C6 (at -3 0 450) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 4u7 (at 0 0 270) (layer F.SilkS) hide
@@ -2178,7 +2178,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 5366A055) (tstamp 5324C621)
     (at 160 90 270)
     (path /5367CAF6)
-    (fp_text reference Q9 (at -3 0 360) (layer F.SilkS) hide
+    (fp_text reference Q13 (at -3 0 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value BC856 (at 0 0 270) (layer F.SilkS) hide
@@ -2208,7 +2208,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 536699BC) (tstamp 5324C71C)
     (at 204.5 75.75 90)
     (path /53227A8F)
-    (fp_text reference Q20 (at -0.25 0 180) (layer F.SilkS) hide
+    (fp_text reference Q24 (at -0.25 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value MMBT2907A (at 0 0 90) (layer F.SilkS) hide
@@ -2240,7 +2240,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /53248B28)
-    (fp_text reference R20 (at 3 0 270) (layer F.SilkS)
+    (fp_text reference R33 (at 3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 270) (layer F.SilkS) hide
@@ -2264,7 +2264,7 @@
   (module IPC-semi-nominal:SOT-223 (layer F.Cu) (tedit 5327317A) (tstamp 5324CBE2)
     (at 176 103 90)
     (path /532494D1)
-    (fp_text reference Q15 (at 0 -4.5 270) (layer F.SilkS)
+    (fp_text reference Q22 (at 0 -4.5 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value PZT2222A (at 0 0 90) (layer F.SilkS) hide
@@ -2296,7 +2296,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 5324DCE0) (tstamp 5324CD78)
     (at 175 110 270)
     (path /5324968F)
-    (fp_text reference Q16 (at 3 0 360) (layer F.SilkS)
+    (fp_text reference Q20 (at 3 0 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value MMBT3904 (at 0 0 270) (layer F.SilkS) hide
@@ -2328,7 +2328,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /532292D0)
-    (fp_text reference R25 (at 0 -1.75 270) (layer F.SilkS)
+    (fp_text reference R44 (at 0 -1.75 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 10k (at 0 0 270) (layer F.SilkS) hide
@@ -2354,7 +2354,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5322A61D)
-    (fp_text reference R30 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R45 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 33 (at 0 0 270) (layer F.SilkS) hide
@@ -2380,7 +2380,7 @@
     (descr "Capacitor,non-polarized,Chip;3.20mm L X 1.60mm W X 0.70mm H")
     (tags IEC)
     (path /52D9CF31)
-    (fp_text reference C9 (at 0 0) (layer F.SilkS) hide
+    (fp_text reference C8 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 4u7 (at 0 0) (layer F.SilkS) hide
@@ -2404,7 +2404,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 53665566) (tstamp 53669867)
     (at 195.5 76 270)
     (path /52C9D31E)
-    (fp_text reference Q22 (at 0 0 360) (layer F.SilkS) hide
+    (fp_text reference Q11 (at 0 0 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value MMBT3904 (at 0 0 270) (layer F.SilkS) hide
@@ -2434,7 +2434,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 53665560) (tstamp 5324DCAA)
     (at 191.5 76 90)
     (path /52CA17C3)
-    (fp_text reference Q21 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference Q14 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value MMBT2907A (at 0 0 90) (layer F.SilkS) hide
@@ -2466,7 +2466,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C9D7A0)
-    (fp_text reference R42 (at 0 0) (layer F.SilkS) hide
+    (fp_text reference R25 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 10k (at 0 0) (layer F.SilkS) hide
@@ -2492,7 +2492,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C9D67B)
-    (fp_text reference R41 (at -3.5 0 180) (layer F.SilkS) hide
+    (fp_text reference R26 (at -3.5 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 10k (at 0 0 180) (layer F.SilkS) hide
@@ -2518,7 +2518,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52C9E017)
-    (fp_text reference R44 (at 0 0) (layer F.SilkS) hide
+    (fp_text reference R20 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0) (layer F.SilkS) hide
@@ -2674,7 +2674,7 @@
     (descr "Resistor,Chip;3.15mm L X 1.60mm W X 0.60mm H")
     (tags IEC)
     (path /53250B2D)
-    (fp_text reference R45 (at -4.5 0.5 450) (layer F.SilkS)
+    (fp_text reference R48 (at -4.5 0.5 450) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1Meg (at 0 0 270) (layer F.SilkS) hide
@@ -2732,7 +2732,7 @@
     (descr "Diode,Molded Body;5.27mm L X 2.60mm W X 2.92mm H")
     (tags IEC)
     (path /532605AF)
-    (fp_text reference D2 (at 0 2.5 180) (layer F.SilkS)
+    (fp_text reference D3 (at 0 2.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value S1D (at 0 0 180) (layer F.SilkS) hide
@@ -2796,7 +2796,7 @@
     (descr "Diode,Molded Body;5.27mm L X 2.60mm W X 2.92mm H")
     (tags IEC)
     (path /532613C2)
-    (fp_text reference D3 (at 0 2.5 180) (layer F.SilkS)
+    (fp_text reference D2 (at 0 2.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value S1D (at 0 0 180) (layer F.SilkS) hide
@@ -2828,7 +2828,7 @@
     (descr "Capacitor,non-polarized,Chip;2.00mm L X 1.25mm W X 0.70mm H")
     (tags IEC)
     (path /53269F19)
-    (fp_text reference C3 (at -3 0) (layer F.SilkS)
+    (fp_text reference C1 (at -3 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 100p (at 0 0) (layer F.SilkS) hide
@@ -2852,7 +2852,7 @@
   (module passive:C-ALUM-6.3mm (layer F.Cu) (tedit 53273439) (tstamp 532681F2)
     (at 143 111 270)
     (path /532708C0)
-    (fp_text reference C6 (at -2 4 360) (layer F.SilkS)
+    (fp_text reference C5 (at -2 4 360) (layer F.SilkS)
       (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
     )
     (fp_text value "47u 63V" (at 0 0 270) (layer F.SilkS) hide
@@ -2875,7 +2875,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 53664C4A) (tstamp 53268201)
     (at 131 98 270)
     (path /52E2DDC0)
-    (fp_text reference Q5 (at 2 1.5 450) (layer F.SilkS)
+    (fp_text reference Q6 (at 2 1.5 450) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value MMBT3906 (at 0 0 270) (layer F.SilkS) hide
@@ -2905,7 +2905,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 53664C4E) (tstamp 53268210)
     (at 135 98 270)
     (path /52E2DDE6)
-    (fp_text reference Q6 (at 2 1.5 450) (layer F.SilkS)
+    (fp_text reference Q7 (at 2 1.5 450) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value MMBT3906 (at 0 0 270) (layer F.SilkS) hide
@@ -3027,7 +3027,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52E2DE02)
-    (fp_text reference R7 (at -3 0 270) (layer F.SilkS)
+    (fp_text reference R8 (at -3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 10k (at 0 0 270) (layer F.SilkS) hide
@@ -3079,7 +3079,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /52E2E0A1)
-    (fp_text reference R3 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R2 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 33 (at 0 0 270) (layer F.SilkS) hide
@@ -3183,7 +3183,7 @@
     (descr "Capacitor,non-polarized,Chip;2.00mm L X 1.25mm W X 0.70mm H")
     (tags IEC)
     (path /52E2F010)
-    (fp_text reference C4 (at 3 0 270) (layer F.SilkS)
+    (fp_text reference C3 (at 3 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1n (at 0 0 270) (layer F.SilkS) hide
@@ -3207,7 +3207,7 @@
   (module passive:C-ALUM-6.3mm (layer F.Cu) (tedit 532732BC) (tstamp 532708D1)
     (at 167.5 78 270)
     (path /5327086B)
-    (fp_text reference C2 (at -4.25 0 360) (layer F.SilkS)
+    (fp_text reference C4 (at -4.25 0 360) (layer F.SilkS)
       (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
     )
     (fp_text value "47u 63V" (at 0 0 270) (layer F.SilkS) hide
@@ -3284,7 +3284,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5366DF78)
-    (fp_text reference R46 (at 0 1.5 180) (layer F.SilkS) hide
+    (fp_text reference R7 (at 0 1.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 180) (layer F.SilkS) hide
@@ -3310,7 +3310,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5366E725)
-    (fp_text reference R47 (at 0 1.5 180) (layer F.SilkS) hide
+    (fp_text reference R9 (at 0 1.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 180) (layer F.SilkS) hide
@@ -3336,7 +3336,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /536734BD)
-    (fp_text reference R48 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R3 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 22k (at 0 0 270) (layer F.SilkS) hide
@@ -3360,7 +3360,7 @@
   (module IPC-semi-nominal:SC-70-6 (layer F.Cu) (tedit 53665148) (tstamp 53665472)
     (at 150.5 107 180)
     (path /53677A92)
-    (fp_text reference Q23 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference Q8 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value PMP4201Y (at 0 0 180) (layer F.SilkS) hide
@@ -3398,7 +3398,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /53678824)
-    (fp_text reference R49 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R14 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 33 (at 0 0 270) (layer F.SilkS) hide
@@ -3422,7 +3422,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 53665547) (tstamp 5366582A)
     (at 187.25 70.25)
     (path /53680F03)
-    (fp_text reference DZ3 (at 0 0) (layer F.SilkS) hide
+    (fp_text reference DZ2 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 3v0 (at 0 0) (layer F.SilkS) hide
@@ -3451,7 +3451,7 @@
   (module IPC-semi-nominal:SOT-23 (layer F.Cu) (tedit 536699B7) (tstamp 53665831)
     (at 199.5 76 270)
     (path /53684557)
-    (fp_text reference Q24 (at 0 0 360) (layer F.SilkS) hide
+    (fp_text reference Q16 (at 0 0 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value MMBT3904 (at 0 0 270) (layer F.SilkS) hide
@@ -3483,7 +3483,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5367E55F)
-    (fp_text reference R50 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference R21 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 1k (at 0 0 180) (layer F.SilkS) hide
@@ -3509,7 +3509,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5368303C)
-    (fp_text reference R51 (at 0 0) (layer F.SilkS) hide
+    (fp_text reference R27 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 10k (at 0 0) (layer F.SilkS) hide
@@ -3535,7 +3535,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5368356A)
-    (fp_text reference R52 (at 0 0) (layer F.SilkS) hide
+    (fp_text reference R28 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 10k (at 0 0) (layer F.SilkS) hide
@@ -3561,7 +3561,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /536841B5)
-    (fp_text reference R53 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference R31 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 10k (at 0 0 180) (layer F.SilkS) hide
@@ -3587,7 +3587,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5366BE31)
-    (fp_text reference R54 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference R23 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 100 (at 0 0 180) (layer F.SilkS) hide
@@ -3613,7 +3613,7 @@
     (descr "Resistor,Chip;2.05mm L X 1.25mm W X 0.50mm H")
     (tags IEC)
     (path /5366C4F4)
-    (fp_text reference R55 (at 0 0 180) (layer F.SilkS) hide
+    (fp_text reference R29 (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value 100 (at 0 0 180) (layer F.SilkS) hide
@@ -3639,7 +3639,7 @@
     (descr "Resistor,Chip;3.15mm L X 1.60mm W X 0.60mm H")
     (tags IEC)
     (path /53679F03)
-    (fp_text reference R2 (at 0 0) (layer F.SilkS) hide
+    (fp_text reference R55 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value "10k QW" (at 0 0) (layer F.SilkS) hide
@@ -3665,7 +3665,7 @@
     (descr "Resistor,Chip;3.15mm L X 1.60mm W X 0.60mm H")
     (tags IEC)
     (path /5367B011)
-    (fp_text reference R32 (at 0 0 270) (layer F.SilkS) hide
+    (fp_text reference R37 (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value "10k QW" (at 0 0 270) (layer F.SilkS) hide
