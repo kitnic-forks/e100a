@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-01 BZR 4839)-product   date = Sun 04 May 2014 10:21:59 AM EDT
+Cmp-Mod V01 Created by Cvpcb (2014-05-01 BZR 4839)-product   date = Sun 04 May 2014 10:30:36 AM EDT
 
 BeginCmp
 TimeStamp = /530A4321;
@@ -718,6 +718,13 @@ BeginCmp
 TimeStamp = /5366E725;
 Reference = R47;
 ValeurCmp = 1k;
+IdModule  = IPC7351-Nominal:RESC2012X50;
+EndCmp
+
+BeginCmp
+TimeStamp = /536734BD;
+Reference = R48;
+ValeurCmp = 22k;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
