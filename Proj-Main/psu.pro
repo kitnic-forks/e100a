@@ -1,4 +1,4 @@
-update=Sun 04 May 2014 09:59:32 AM EDT
+update=Sun 04 May 2014 05:57:55 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -32,7 +32,7 @@ ModuleOutlineThickness=0.35
 LibDir=
 [eeschema]
 version=1
-PageLayoutDescrFile=../../../electronics/LOGOS/LogoPage.kicad_wks
+PageLayoutDescrFile=../../../LOGOS/LogoPage.kicad_wks
 SubpartIdSeparator=0
 SubpartFirstId=65
 LibDir=../../../../../electronics/kicad/library
