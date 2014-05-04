@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-05-01 BZR 4839)-product   date = Sun 04 May 2014 10:30:36 AM EDT
+Cmp-Mod V01 Created by Cvpcb (2014-05-01 BZR 4839)-product   date = Sun 04 May 2014 10:35:57 AM EDT
 
 BeginCmp
 TimeStamp = /530A4321;
@@ -393,6 +393,13 @@ IdModule  = IPC-semi-nominal:SOT-23;
 EndCmp
 
 BeginCmp
+TimeStamp = /53677A92;
+Reference = Q23;
+ValeurCmp = PMP4201Y;
+IdModule  = IPC-semi-nominal:SC-70-6;
+EndCmp
+
+BeginCmp
 TimeStamp = /53269CFE;
 Reference = R1;
 ValeurCmp = 22k;
@@ -423,14 +430,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52E2F59E;
 Reference = R5;
-ValeurCmp = 22k;
+ValeurCmp = 30k;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E2EFEF;
 Reference = R6;
-ValeurCmp = 18k;
+ValeurCmp = 22k;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
@@ -514,7 +521,7 @@ EndCmp
 BeginCmp
 TimeStamp = /52C593D9;
 Reference = R18;
-ValeurCmp = 1k;
+ValeurCmp = 33;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
@@ -725,6 +732,13 @@ BeginCmp
 TimeStamp = /536734BD;
 Reference = R48;
 ValeurCmp = 22k;
+IdModule  = IPC7351-Nominal:RESC2012X50;
+EndCmp
+
+BeginCmp
+TimeStamp = /53678824;
+Reference = R49;
+ValeurCmp = 33;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
