@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-14 BZR 4748)-product date = Mon 17 Mar 2014 05:24:30 PM EDT
+Cmp-Mod V01 Created by Cvpcb (2014-05-01 BZR 4839)-product   date = Sun 04 May 2014 10:21:59 AM EDT
 
 BeginCmp
 TimeStamp = /530A4321;
@@ -169,6 +169,13 @@ IdModule  = conn:CONN_2-SIL;
 EndCmp
 
 BeginCmp
+TimeStamp = /532DFA05;
+Reference = DS3;
+ValeurCmp = POWER;
+IdModule  = conn:CONN_2-SIL;
+EndCmp
+
+BeginCmp
 TimeStamp = /52E2FF0F;
 Reference = DZ1;
 ValeurCmp = BZX84B6V2;
@@ -232,9 +239,9 @@ IdModule  = conn:TEST;
 EndCmp
 
 BeginCmp
-TimeStamp = /53268D43;
+TimeStamp = /5366B2BB;
 Reference = Q1;
-ValeurCmp = MMBT3906;
+ValeurCmp = BC856;
 IdModule  = IPC-semi-nominal:SOT-23;
 EndCmp
 
@@ -253,9 +260,9 @@ IdModule  = IPC-semi-nominal:SC-70-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /532688CC;
+TimeStamp = /5366D876;
 Reference = Q4;
-ValeurCmp = MMBT3906;
+ValeurCmp = BC856;
 IdModule  = IPC-semi-nominal:SOT-23;
 EndCmp
 
@@ -393,9 +400,9 @@ IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
 BeginCmp
-TimeStamp = /5326A50E;
+TimeStamp = /532DFBBF;
 Reference = R2;
-ValeurCmp = 22k;
+ValeurCmp = 10k;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
@@ -640,28 +647,28 @@ EndCmp
 BeginCmp
 TimeStamp = /52C3CF63;
 Reference = R37;
-ValeurCmp = 120k 0.5%;
+ValeurCmp = * 0.5%;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C3D004;
 Reference = R38;
-ValeurCmp = 120k 0.5%;
+ValeurCmp = * 0.5%;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
 BeginCmp
 TimeStamp = /52C3FE1A;
 Reference = R39;
-ValeurCmp = 100;
+ValeurCmp = 270;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D9E52B;
 Reference = R40;
-ValeurCmp = 100;
+ValeurCmp = 270;
 IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
@@ -701,6 +708,20 @@ IdModule  = IPC7351-Nominal:RESC2012X50;
 EndCmp
 
 BeginCmp
+TimeStamp = /5366DF78;
+Reference = R46;
+ValeurCmp = 1k;
+IdModule  = IPC7351-Nominal:RESC2012X50;
+EndCmp
+
+BeginCmp
+TimeStamp = /5366E725;
+Reference = R47;
+ValeurCmp = 1k;
+IdModule  = IPC7351-Nominal:RESC2012X50;
+EndCmp
+
+BeginCmp
 TimeStamp = /52BFD29E;
 Reference = RV1;
 ValeurCmp = 10k;
@@ -717,7 +738,7 @@ EndCmp
 BeginCmp
 TimeStamp = /532271EB;
 Reference = RV3;
-ValeurCmp = 10k;
+ValeurCmp = 1k;
 IdModule  = conn:CONN_3-SIL;
 EndCmp
 

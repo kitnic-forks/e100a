@@ -1,6 +1,6 @@
-update=Fri 21 Mar 2014 10:22:31 PM EDT
+update=Sun 04 May 2014 09:59:32 AM EDT
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -35,7 +35,7 @@ version=1
 PageLayoutDescrFile=../../../electronics/LOGOS/LogoPage.kicad_wks
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=../../../electronics/kicad/library
+LibDir=../../../../../electronics/kicad/library
 NetFmtName=
 RptD_X=0
 RptD_Y=100
