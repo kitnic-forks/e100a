@@ -1,4 +1,4 @@
-update=Sun 04 May 2014 05:57:55 PM EDT
+update=Sun 04 May 2014 08:24:54 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,8 +6,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -82,3 +80,5 @@ LibName37=supertex
 LibName38=symbol
 LibName39=texas
 LibName40=vishay_semi
+[general]
+version=1

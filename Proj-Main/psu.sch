@@ -46,8 +46,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "E100A ALL-DISCRETE POWER SUPPLY"
-Date "22 Mar 2014"
-Rev "C"
+Date "04 May 2014"
+Rev "A"
 Comp "Chris Pavlina"
 Comment1 ""
 Comment2 ""
